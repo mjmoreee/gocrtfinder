@@ -11,5 +11,8 @@ cd gocrtfinder && go build gocrtfinder.go
 
 ## Usage
 ```Bash
-gocrtfinder -u target.com
+gocrtfinder -u target.com -o /Path/to/File
+
+The output:
+/Path/to/File/target.com.txt
 ```
